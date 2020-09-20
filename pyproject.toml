@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "code2markdown"
+author = "Grant Murray"
+author-email = "gmurray203@gmail.com"
+home-page = "https://github.com/GEM7318/Code2Markdown"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.md"
+
