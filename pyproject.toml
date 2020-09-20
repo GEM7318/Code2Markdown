@@ -10,3 +10,8 @@ home-page = "https://github.com/GEM7318/Code2Markdown"
 classifiers = ["License :: OSI Approved :: MIT License"]
 description-file = "README.md"
 
+#[tool.flit.sdist]
+#include = ["code2markdown/.*"]
+
+[tool.flit.scripts]
+run = "code2markdown:main"

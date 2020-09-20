@@ -126,3 +126,10 @@ class Code:
             _ = self.markdown.pop(path)
         print(f"<removed {len(self.trash)} files from markdown collection>")
         self.trash.clear()
+        
+    def dump(self, output_dir: Path):
+        self.read_dir(dir_path=output_dir)
+        for path, md_str in self.markdown.items():
+            file_stem, _ = path.name.split('.')
+            with open(output_dir / f"{file_stem}.md", 'w') as f:
+                f.write(md_str)
