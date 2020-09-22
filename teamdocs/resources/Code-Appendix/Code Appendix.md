@@ -1,14 +1,17 @@
 # Code Reference
+
 - [Python](#python)
   - [`/Code2Markdown/Usage.py` ](#code2markdownusagepy-)
-  - [Code2Markdown/code2markdown/Code \[\](#)(name=Code)](#code2markdowncode2markdowncode-namecode)
+  - [`Code2Markdown/code2markdown/Code.py`](#code2markdowncode2markdowncodepy)
 - [Toml](#toml)
   - [`Code2Markdown/pyproject.toml`](#code2markdownpyprojecttoml)
   - [`Code2Markdown/code2markdown/file-types.toml`](#code2markdowncode2markdownfile-typestoml)
 
+<!--TOC-->
+
+<br></br>
 
 ##  Python
-<br></br>
 ### `/Code2Markdown/Usage.py` 
 ```python
 
@@ -63,8 +66,8 @@ for k, v in file_ext_to_md_tag.items():
 	print(f"{k} = '{v}'")
 
 ```
-<br></br>
-### Code2Markdown/code2markdown/Code [](#)(name=Code)
+
+### `Code2Markdown/code2markdown/Code.py`
 
 ```python
 from pathlib import Path
@@ -205,7 +208,6 @@ class Code:
 
 <br></br>
 ## Toml
-<br></br>
 
 ### `Code2Markdown/pyproject.toml`
 
@@ -229,8 +231,6 @@ include = ["code2markdown/.*"]
 run = "code2markdown:main"
 
 ```
-
-<br></br>
 
 ### `Code2Markdown/code2markdown/file-types.toml`
 
