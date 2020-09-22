@@ -12,10 +12,8 @@
   - [`Code2Markdown/code2markdown/file-types.toml`](#code2markdowncode2markdownfile-typestoml)
 <!--/teamdocs-TOC-->
 
-<br></br>
-
-##  Python
-### `/Code2Markdown/Usage.py` 
+##  [Python](#code-reference)
+### [`/Code2Markdown/Usage.py`](#code-reference) 
 ```python
 
 
@@ -210,9 +208,9 @@ class Code:
 ```
 
 <br></br>
-## Toml
+## [Toml](#code-reference)
 
-### `Code2Markdown/pyproject.toml`
+### [`Code2Markdown/pyproject.toml`](#code-reference)
 
 ```toml
 [build-system]
@@ -235,7 +233,7 @@ run = "code2markdown:main"
 
 ```
 
-### `Code2Markdown/code2markdown/file-types.toml`
+### [`Code2Markdown/code2markdown/file-types.toml`](#code-reference)
 
 ```toml
 
