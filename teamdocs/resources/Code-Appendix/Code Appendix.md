@@ -1,6 +1,6 @@
 # Code Reference
 - [Python](#python)
-    - [Code.py](#--Code2Markdown--code2markdown--Code)
+    - [Code.py](#/Code2Markdown/code2markdown/Code)
 
 
 ##  Python
