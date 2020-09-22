@@ -13,7 +13,7 @@
 <!--/teamdocs-TOC-->
 
 ##  [Python](#code-reference)
-### [`/Code2Markdown/Usage.py`](#code-reference) 
+### `/Code2Markdown/Usage.py`
 ```python
 
 
@@ -69,6 +69,7 @@ for k, v in file_ext_to_md_tag.items():
 ```
 [_Back to Code Reference_](#code-reference-code2markdown)
 <br></br>
+
 ### `Code2Markdown/code2markdown/Code.py`
 ```python
 from pathlib import Path
@@ -208,8 +209,9 @@ class Code:
 ```
 [_Back to Code Reference_](#code-reference-code2markdown)
 <br></br>
+
 <br></br>
-## [Toml](#code-reference)
+## Toml
 
 ### [`Code2Markdown/pyproject.toml`](#code-reference)
 
@@ -233,8 +235,10 @@ include = ["code2markdown/.*"]
 run = "code2markdown:main"
 
 ```
+[_Back to Code Reference_](#code-reference-code2markdown)
+<br></br>
 
-### [`Code2Markdown/code2markdown/file-types.toml`](#code-reference)
+### `Code2Markdown/code2markdown/file-types.toml`
 
 ```toml
 
@@ -253,3 +257,5 @@ xml = 'xml'
 yml = 'yaml'
 
 ```
+[_Back to Code Reference_](#code-reference-code2markdown)
+<br></br>
