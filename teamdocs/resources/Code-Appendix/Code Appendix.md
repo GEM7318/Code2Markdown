@@ -1,6 +1,6 @@
 
 <!--teamdocs-header-->
-# Code Reference (test)
+# Code Reference [test]
 <!--/teamdocs-header-->
 
 <!--teamdocs-TOC-->
