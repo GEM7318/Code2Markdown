@@ -70,7 +70,7 @@ for k, v in file_ext_to_md_tag.items():
 
 ```
 
-### `Code2Markdown/code2markdown/Code.py`
+### [`Code2Markdown/code2markdown/Code.py`]
 
 ```python
 from pathlib import Path
