@@ -4,6 +4,7 @@
 <!--/teamdocs-header-->
 
 <!--teamdocs-TOC-->
+[TOC]
 - [Python](#python)
   - [`/Code2Markdown/Usage.py` ](#code2markdownusagepy-)
   - [`Code2Markdown/code2markdown/Code.py`](#code2markdowncode2markdowncodepy)
