@@ -1,6 +1,6 @@
 
 <!--teamdocs-header-->
-# Code Reference <a name="test"></a>
+# Code Reference (test)
 <!--/teamdocs-header-->
 
 <!--teamdocs-TOC-->
