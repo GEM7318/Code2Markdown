@@ -1,13 +1,16 @@
-# Code Reference
 
+<!--teamdocs-header-->
+# Code Reference
+<!--/teamdocs-header-->
+
+<!--teamdocs-TOC-->
 - [Python](#python)
   - [`/Code2Markdown/Usage.py` ](#code2markdownusagepy-)
   - [`Code2Markdown/code2markdown/Code.py`](#code2markdowncode2markdowncodepy)
 - [Toml](#toml)
   - [`Code2Markdown/pyproject.toml`](#code2markdownpyprojecttoml)
   - [`Code2Markdown/code2markdown/file-types.toml`](#code2markdowncode2markdownfile-typestoml)
-
-<!--TOC-->
+<!--/teamdocs-TOC-->
 
 <br></br>
 
