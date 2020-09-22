@@ -69,7 +69,7 @@ for k, v in file_ext_to_md_tag.items():
 ```
 
 ### [`Code2Markdown/code2markdown/Code.py`](#code-reference)
-_[Back to Code Reference]_(#code-reference)
+[_Back to Code Reference_](#code-reference)
 ```python
 from pathlib import Path
 from typing import Generator
