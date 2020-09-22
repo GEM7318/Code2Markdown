@@ -1,6 +1,6 @@
 
 <!--teamdocs-header-->
-# Code Reference ()[#](name='test')
+# Code Reference ()[]{name='test'}
 <!--/teamdocs-header-->
 
 <!--teamdocs-TOC-->
