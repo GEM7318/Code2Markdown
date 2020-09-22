@@ -5,7 +5,7 @@ from code2markdown import Code
 
 def main():
 	output_dir = Path.cwd()
-	code = Code.Code()
+	code = Code()
 	code.dump(output_dir=output_dir)
 	
 	

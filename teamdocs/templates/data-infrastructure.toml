@@ -1,0 +1,11 @@
+# -- Automations & Data Infrastructure ----------------------------------------
+[data-infrastructure]
+    is-part-of-collection = false  # [REQUIRED] Indicates if this is one of multiple teamdocs in a collection
+    is-collection-root = false  # [REQUIRED] Indicates if this is primary/parent body of work to encompass collection
+    short-description = 'Project short description (1-2 sentences)'  # Short description of project.
+    is_automation = true  # 
+    automation_location = ''  # Server or machine name/owner automation is currently running on
+    tables = ['']  # Tables built or altered by process
+    schema = ['']  # Primary schema that process is running in - can be multiple
+    table-qa-sql = ''  # Path to .sql file containing QA statements parsable by snowmobile.snowscripter
+    entity-relationships-png = ''  # Path to .png entity relationship diagram relative to project root

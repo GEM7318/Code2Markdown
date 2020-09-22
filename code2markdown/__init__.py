@@ -10,4 +10,4 @@ code2markdown run
 
 __version__ = "0.1"
 
-from .Code import Code
+from .Code import Code  # noqa
