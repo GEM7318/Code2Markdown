@@ -1,6 +1,6 @@
 
 <!--teamdocs-header-->
-# Code Reference [](test)
+# Code Reference <a name="code-reference-code2markdown"></a>
 <!--/teamdocs-header-->
 
 <!--teamdocs-TOC-->
@@ -67,9 +67,9 @@ for k, v in file_ext_to_md_tag.items():
 	print(f"{k} = '{v}'")
 
 ```
-[_Back to Code Reference_](#test)
+[_Back to Code Reference_](#code-reference-code2markdown)
 <br></br>
-### [`Code2Markdown/code2markdown/Code.py`](#code-reference)
+### `Code2Markdown/code2markdown/Code.py`
 ```python
 from pathlib import Path
 from typing import Generator
@@ -206,7 +206,8 @@ class Code:
             with open(output_dir / f"{file_stem}.md", 'w') as f:
                 f.write(md_str)
 ```
-
+[_Back to Code Reference_](#code-reference-code2markdown)
+<br></br>
 <br></br>
 ## [Toml](#code-reference)
 
