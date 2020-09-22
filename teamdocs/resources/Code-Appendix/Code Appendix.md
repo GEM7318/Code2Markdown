@@ -1,6 +1,6 @@
 # Code Reference
 - [Python](#python)
-    - [Code.py](#Code2Markdowncode2markdownCode)
+    - [Code.py](#Code)
 
 
 ##  Python
@@ -60,7 +60,7 @@ for k, v in file_ext_to_md_tag.items():
 
 ```
 <br></br>
-### Code2Markdowncode2markdownCode
+### Code2Markdown/code2markdown/Code [](#)(name=Code)
 
 ```python
 from pathlib import Path
