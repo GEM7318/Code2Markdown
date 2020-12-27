@@ -1,6 +1,0 @@
-# -- Dashboards & Reporting ---------------------------------------------------
-[reporting]
-    dashboard-url = ''  # Tableau Server URL for dashboard (if applicable)
-    short-description = 'Dashboard short description (1-2 sentences)'  # Brief description of dashboard's contents
-    long-description-file-name = 'Dashboard long description (md syntax)'  # Markdown file containing detail description of dashboard's contents/data points
-    is_automation = true  # Data source is automated (True/False)

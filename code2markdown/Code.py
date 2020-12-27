@@ -73,7 +73,8 @@ class Code:
         md_tag = self.file_ext_to_md_tag.get(ext)
         if md_tag:
             with open(path_to_code_file, "r", encoding="utf-8") as r:
-                self.markdown[path_to_code_file] = self._as_md(r.read(), md_tag)
+                md = r.read()
+            self.markdown[path_to_code_file] = self._as_md(md, md_tag)
         else:
             return ""
 
